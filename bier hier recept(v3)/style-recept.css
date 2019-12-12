@@ -1,0 +1,120 @@
+<head>
+<style>
+m{
+
+}
+header{
+    background-color: #6FA8DC;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    font-size: 24px;
+
+}
+a:visited{
+  color: blue;
+}
+body {
+    background-color: white;
+}
+
+@media all and (min-width: 0px){
+  p#t1{
+    height: 150px;
+  }
+}
+@media all and (min-width: 700px){
+  p#t1{
+    height: 250px;
+  }
+}
+@media all and (min-width: 1200px){
+  p#t1{
+    height: 350px;
+  }
+}
+  body{
+    margin: 0px;
+  }
+  a:hover {
+        text-decoration: underline;
+        color: rgba(3, 0, 153, 1);
+        -webkit-animation: linkGlowEffect 1s ease-in-out infinite alternate;
+        -moz-animation: linkGlowEffect 1s ease-in-out infinite alternate;
+        animation: linkGlowEffect 1s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes linkGlowEffect {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+  img{
+    height: 300px;
+  }
+  img#t01{
+    width: 48%;
+  }
+
+  img#t02{
+    width: 48%;
+  }
+  img#t03{
+    width: 73%;
+  }
+  img#t04{
+    width: 23%;
+  }
+  text{
+    display: inline;
+    margin-left: 10px;
+    float: left;
+    width: 30%;
+    height: 50%;
+  }
+  pictures{
+    display: inline;
+    float: left;
+    width: 69%;
+    margin-top: 100px;
+  }
+  links{
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: blue;
+  }
+  sites{
+    background: gray;
+    display: inline;
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: 209px;
+  }
+  a{
+    color: blue;
+  }
+  p#t1{
+    width: 100%;
+    height: 5px;
+  }
+  #footer{
+    background-color: darkgrey;
+    display: inline;
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: 209px;
+}
+
+footer p{
+    color: white;
+}
+  m{
+
+  }
+</style>
+</head>
