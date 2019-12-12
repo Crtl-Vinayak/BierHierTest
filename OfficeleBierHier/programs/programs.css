@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #6FA8DC;
+    text-align: center;
+    height: 2vh;
+    padding: 10px;
+    font-size: 24px;
+}
+
+header a{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: 10px;
+    text-align: center;
+    height: 85vh;
+}
+
+section a p {
+    margin: 0 auto;
+    background-color: forestgreen;
+    color: white;
+    transition: background-color, color, border 1s ease;
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 20%;
+}
+
+section a p:hover{
+    background-color: yellow;
+    color: black;
+    border: solid 1px #007bff;
+}
+
+footer{
+    background-color: darkgrey;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer p{
+    color: white;
+    padding-left: 40px;
+    margin: 0;
+}
