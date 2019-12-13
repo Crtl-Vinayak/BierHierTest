@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
+
+*{
+    box-sizing: border-box;
+    font-family: Anonymous Pro, serif;
+}
+
+nav img {
+    width: 5vw;
+    height: 3vh;
+}
+
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 0fr repeat(4, 2fr);
+    grid-template-rows: 1fr repeat(2, 0fr) 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+}
+
+#vin{
+    grid-column: 2/3;
+}
+
+#tekst{
+ grid-row: 2;
+    grid-column: 2/3;
+}
+
+header{
+    background-color: #6FA8DC;
+    text-align: center;
+    height: 10%;
+    padding: 10px;
+    font-size: 24px;
+}
+
+header a{
+    color: black;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+#tekst2{
+    grid-row: 2;
+    grid-column: 3/4;
+}
+
+#tekst3{
+    grid-row: 2;
+    grid-column: 4/5;
+}
+
+#mark{
+    grid-column: 3/4;
+}
+
+#justin{
+    grid-column: 4/5;
+    transform: rotate(90deg);
+}
+
+#gianni{
+    grid-column: 5/6;
+}
+
+#tekst4{
+    grid-row: 2;
+    grid-column: 5/6;
+}
+
+#footer{
+    background-color: darkgrey;
+}
+
+footer p{
+    color: white;
+}
