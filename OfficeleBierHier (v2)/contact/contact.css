@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
+
+*{
+    box-sizing: border-box;
+    font-family: Anonymous Pro, serif;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr;
+    grid-template-rows: 2fr 4fr 3fr 3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+header{
+    background-color: #6FA8DC;
+    text-align: center;
+    height: 10%;
+    padding: 10px;
+    font-size: 24px;
+}
+
+header a{
+    color: #073763;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+nav img {
+    width: 5vw;
+    height: 3vh;
+}
+
+#frame{
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+#adresgegevens{
+    grid-column: 2/3;
+    margin-left: 10px;
+    height: 20%;
+}
+
+#gegevens{
+    margin-left: 10px;
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+
+#berichtformulier{
+    margin-top: 10px;
+    grid-row: 3;
+}
+
+#naamveld{
+    margin-left: 100px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+#mail{
+    margin-left: 82px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+#telnr{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+#tekst{
+    margin-left: 72px;
+    width: 400px;
+    height: 100px;
+}
+
+#verstuuren{
+    margin-left: 420px;
+    width: 100px;
+}
+
+#footer{
+    background-color: darkgrey;
+}
+
+footer p{
+    color: white;
+}
