@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
+
+* {
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: #007bff;
+}
+
+nav img {
+    width: 5vw;
+    height: 3vh;
+}
+
+@media all and (min-width:769px) {
+	body {
+		font-family: "Anonymous Pro";
+		margin: 0;
+		padding: 0;
+	}
+
+    header{
+        background-color: #6FA8DC;
+        text-align: center;
+        height: 10%;
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    header a{
+        font-weight: bold;
+        color: #073763;
+    }
+
+    header a:hover {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-weight: bold;
+        text-align: right;
+        margin: 40px 60px 40px 0;
+    }
+
+    #mainSection{
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 55fr 45fr;
+        grid-template-rows: 5fr 95fr;
+    }
+
+    #mainSection p {
+        text-align: left;
+        width: 90%;
+        margin: auto;
+    }
+
+    #bigConcert {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    #concertLijstje {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #imageSection {
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 1fr repeat(4, 2fr);
+        grid-template-rows: 1fr;
+    }
+
+    #imageSection p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        font-size: 1.2em;
+    }
+
+    #imageSection a {
+        max-height: 240px;
+        max-width: 240px;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
+
+    #imageSection a img {
+        max-height: 240px;
+        max-width: 240px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #footer{
+        background-color: darkgrey;
+    }
+
+    footer p{
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer ul {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer #copyrightTXT {
+        padding-left: 40px;
+    }
+}
+
+@media all and (min-width:0px) and (max-width:768px) {
+	body {
+		font-family: "Anonymous Pro";
+		background-color: lightyellow;
+		margin: 0;
+		padding: 0;
+	}
+
+	img {
+		display: block;
+		width: 90%;
+		margin: 10px auto 10px auto;
+	}
+
+	a {
+		text-align: center;
+		text-decoration: none;
+		color: #073763;
+	}
+
+	header {
+		background-color: #6FA8DC;
+		text-align: center;
+		height: 10%;
+		padding: 10px;
+		font-size: 24px;
+	}
+
+	header a {
+		color: black;
+	}
+
+	h1, p {
+		text-align: center;
+		margin: 0;
+	}
+
+	p {
+		font-size: 2.0em;
+	}
+
+	#lijstImg {
+		width: 90vw;
+	}
+
+	#sitelink {
+		font-size: 24px;
+		display: flex;
+		justify-content: center;
+	}
+
+	#footer {
+		background-color: darkgrey;
+	}
+
+	footer p {
+        text-align: left;
+		color: white;
+        font-size: 1.0em;
+        margin: 0 0 0 40px;
+	}
+}
