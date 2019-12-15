@@ -35,6 +35,8 @@ public class The_Game extends Application {
     
     private static MediaView MEDIAVIEW; 
     
+    private static String AUDIO_URI = The_Game.class.getResource("ChickenSong-GecoRemix.mp3").toExternalForm();
+    
     int t = 0;
     
     MediaPlayer mediaplayer;
@@ -56,7 +58,7 @@ public class The_Game extends Application {
 		WINDOW.setScene(SCENE);
 		WINDOW.show();
 		
-		Media musicFile = new Media("file:///C:/Users/justi/eclipse-workspace/the%20best%20game%20ever/src/com/best_game/justin/mainFX/ChickenSong-GecoRemix.mp3");
+		Media musicFile = new Media(AUDIO_URI);
 		
 		borderedge.setFill(Color.DIMGRAY);
 		
