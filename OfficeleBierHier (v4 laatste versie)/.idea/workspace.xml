@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="743b725e-e5f1-4696-83ed-7eae1fc3f70c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UtzxeBOUVJdBgPQswOZ8lGxpov" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/programs/res" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier\programs\res" />
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier\sport" />
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier" />
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier\recept" />
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier\programs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier\res" />
+      <recent name="C:\Users\vinay\Desktop\ROC\OfficeleBierHier\sport\res" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="743b725e-e5f1-4696-83ed-7eae1fc3f70c" name="Default Changelist" comment="" />
+      <created>1576190926799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576190926799</updated>
+      <workItem from="1576190928046" duration="2235000" />
+      <workItem from="1576223870796" duration="339000" />
+      <workItem from="1576227351152" duration="1658000" />
+      <workItem from="1576247159880" duration="3668000" />
+      <workItem from="1576255474003" duration="371000" />
+      <workItem from="1576255862226" duration="4785000" />
+      <workItem from="1576443071794" duration="323000" />
+      <workItem from="1576443412507" duration="5047000" />
+      <workItem from="1576452279311" duration="1341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
